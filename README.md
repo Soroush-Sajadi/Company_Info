@@ -1,8 +1,8 @@
 # Company_Info
 This is an app which deals with from an api and render them on a web page
 Check the result
-[Link](https://company-49624.web.app/)
- 
+
+https://company-49624.web.app
 
 If you want to run the app localy on your machine 
 1- Clone the broject 
