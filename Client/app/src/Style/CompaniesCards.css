@@ -1,9 +1,8 @@
 .companies-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 2vh;
-
-
+    margin-top: 2vh;    
+    flex-wrap: wrap;
 }
 .company-card {
     width: 60vh;
