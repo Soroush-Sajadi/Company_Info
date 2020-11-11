@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import CompanyImage from '../Images/company2.jpg';
+import CompanyImage from '../Images/company.jpg';
 import Profile from '../Images/profile.png';
 import { useSelector } from 'react-redux';
 import '../Style/CompaniesCards.css'
