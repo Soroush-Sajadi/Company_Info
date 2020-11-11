@@ -1,0 +1,51 @@
+.companies-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+
+
+}
+.company-card {
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.company-card img {
+    width: 50vh;
+    height: 36vh;
+    margin-top: 6vh
+}
+.company-info {
+    font-size: 2vh;
+    text-align: center;
+    margin-top: -1.3vh;
+}
+.company-info p {
+    margin-top: -1.5vh
+}
+
+.company-roles-wrapper {
+    margin-left: -26%;
+}
+.company-roles-inner {
+    display: flex;
+}
+.company-roles-inner img {
+    width: 8vh;
+    height: 8vh;
+    margin-top: 2.5vh;
+}
+.company-roles-inner p {
+    font-size: 2.4vh;
+}
+.company-roles-info {
+    margin-left: 3vh;
+    margin-top: 1vh;
+}
+
+.company-roles-info-buttom {
+    margin-top: -2vh;
+}
