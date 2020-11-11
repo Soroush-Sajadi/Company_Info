@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import CompanyImage from '../Images/company.jpg';
+import CompanyImage from '../Images/company2.jpg';
 import Profile from '../Images/profile.png';
 import { useSelector } from 'react-redux';
 import '../Style/CompaniesCards.css'
@@ -7,7 +7,6 @@ import '../Style/CompaniesCards.css'
 const CompaniesCards = () => {
   const [ loading, setLoading ] = useState('Loading')
   const data = useSelector((state => state.companies));
-  console.log(data)
   return(
     <>
      {data.length !== 0 ? 
